@@ -1,0 +1,415 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --default: #8a0516;
+    --gray: #B3B3B3;
+    --background_container: #d8d5d5;
+    --hover: #e72222;
+    --btn_main: #bd2020;
+    --dropdown_style: #00025e;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: -10px 0 0 0;
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--black);
+}
+
+/** Top-navbar */
+@media(max-width:768px) {
+    .mynavbar {
+        display: none;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+}
+
+.navtext {
+    font-weight: 200;
+    margin: 5px;
+    display: inline-block;
+    padding-top: 1px;
+}
+
+.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li {
+    float: left;
+}
+
+ul.topnav li a {
+    display: block;
+    padding: 6px;
+    color: var(--white);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+ul.topnav li a:hover {
+    color: var(--hover);
+    transition: 0.3s;
+}
+
+.myrow {
+    margin: 10px 0 10px 0;
+}
+
+.nav-link-style {
+    font-size: 14px;
+}
+
+.dropdownn-style {
+    background-color: var(--dropdown_style);
+}
+
+.dropdown-item-style {
+    color: var(--white);
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.dropdown-item-style:hover {
+    background-color: var(--default);
+    color: var(--white);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.dropdown:hover>.dropdown-menu {
+    /* *displays the dropdown menu on hover*/
+    display: block;
+}
+
+/* main-navbar */
+
+.theme-button{
+    color: var(--black);
+}
+.theme-button:hover{
+    color: var(--white);
+}
+
+/** slider */
+/**  side-bar */
+.fixed-1 {
+    position: fixed;
+    width: 105px;
+    height: 80px;
+    border-radius: 20% 0 0 0;
+    top: 227px;
+    left: 1414px;
+    z-index: 1;
+}
+
+.fixed-1 .text {
+    color: var(--white);
+}
+
+.fixed-2 {
+    position: fixed;
+    width: 105px;
+    height: 80px;
+    top: 307px;
+    left: 1414px;
+    background-color: var(--white);
+    z-index: 1;
+}
+
+.fixed-2 .icon {
+    color: var(--black);
+}
+
+.fixed-2 .text {
+    color: var(--black);
+}
+
+.fixed-3 {
+    position: fixed;
+    width: 105px;
+    height: 80px;
+    top: 387px;
+    left: 1414px;
+    z-index: 1;
+}
+
+.fixed-3 .text {
+    color: var(--white);
+}
+
+.fixed-4 {
+    position: fixed;
+    width: 105px;
+    height: 80px;
+    border-radius: 0 0 0 20%;
+    top: 467px;
+    left: 1414px;
+    background-color: var(--white);
+    z-index: 1;
+}
+
+.fixed-4 .icon {
+    color: var(--black);
+}
+
+.fixed-4 .text {
+    color: var(--black);
+}
+
+.fixed-5 {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    border-radius: 30% 0 0 30%;
+    background-color: var(--white);
+    top: 558px;
+    font-size: 30px;
+    left: 1474px;
+    text-align: center;
+    color: green;
+    z-index: 1;
+}
+
+.icon {
+    position: absolute;
+    top: 10px;
+    left: 45px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.text {
+    font-size: 12px;
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    text-align: center;
+    color: var(--white);
+}
+
+/** facilities */
+.mylink {
+    background-color: var(--default);
+    padding: 5px;
+}
+
+.mylink>a {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 10px;
+    margin: 15px;
+}
+
+/** News & Events */
+/** moving */
+.moving {
+    margin: 10px 0 10px 0;
+}
+
+/** Academic Excellence & Admissions Query  */
+/** International Collaboration */
+/** features */
+
+#features {
+    text-align: center;
+    line-height: 1.5em;
+    background-image: url("DSC_3820.jpg");
+    min-height: 350px;
+    line-height: 2;
+}
+
+.features-icon {
+    width: 100px;
+    margin: 30px 0 30px 0;
+}
+
+.features-number {
+    font-size: 30px;
+    color: var(--default);
+    font-weight: 600;
+}
+
+/** Innovation Center  */
+/** Statup Cell */
+/** Why United */
+/** TEDxUCERAllahabad Video */
+/** Blogs @ UGI */
+/** UGI Campus & Photo Gallery & Corporate Video */
+.photo-gallery {
+    width: 120px;
+}
+
+/** Student Testimonial */
+.student-testimonial {
+    background-image: url("uitucem1.jpg");
+    background-position: center top;
+    min-height: 349px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+    font-weight: 100;
+}
+
+.student-img {
+    width: 110px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid var(--white);
+    margin: 20px 0 20px 0;
+}
+
+.stu-test {
+    border: 1px solid #8a0516;
+    width: auto;
+    float: none;
+    width: 12%;
+}
+
+/** footer */
+
+.footer-list>a {
+    color: var(--white);
+    transition: 0.3s;
+    margin: 10px 0 10px 0;
+}
+
+.footer-list>a:hover {
+    color: var(--hover);
+}
+
+.shift:hover {
+    position: relative;
+    left: 5px;
+    transition: 0.3s;
+}
+
+hr {
+    border-top: 4px solid var(--default);
+    width: 50px;
+    float: left;
+}
+/** Media Queries */
+@media (max-width:768px) {
+    body {
+        text-align: center;
+    }
+    
+    hr {
+        float: none;
+    }
+
+    ul>li {
+        list-style-type: none;
+    }
+
+    .united-logo {
+        width: 175px;
+    }
+
+    .desktop {
+        display: none;
+    }
+    
+    .mobile-img {
+        width: 450px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        grid-gap: 10px;
+        margin: 15px;
+    }
+    
+    /* .want-us-to-call {
+        position: fixed;
+        top: 400px;
+        z-index: 5;
+    }
+    .want-us-to-call img {
+        width: 240px;
+    } */
+}
+
+
+/** Common */
+
+/* .want-us-to-call img{
+    display: none;
+} */
+
+.mycontainer {
+    background-color: var(--background_container);
+    padding: 30px 20px 30px 20px;
+}
+
+.btn-main {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    color: var(--btn_main);
+    font-size: 14px;
+    background: var(--white);
+    padding: 10px 20px 10px 20px;
+    border: solid var(--btn_main) 2px;
+    text-decoration: none;
+}
+
+.btn-main:hover {
+    background: var(--btn_main);
+    text-decoration: none;
+    color: var(--white);
+    transition: 0.5s;
+}
+
+.image_style {
+    border: var(--black) solid 3px;
+}
+
+.center,
+h5 {
+    text-align: center;
+}
+
+.mycolor {
+    color: var(--default);
+}
+
+.blink {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.default {
+    background-color: var(--default);
+    color: var(--white);
+}
+
+/* .alternate-container {
+    padding: 1%;
+} */
