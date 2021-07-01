@@ -314,6 +314,10 @@ hr {
         text-align: center;
     }
     
+    .myrow{
+        display:none;
+    }
+    
     hr {
         float: none;
     }
